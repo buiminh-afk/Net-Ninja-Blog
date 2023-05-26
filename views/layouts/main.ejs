@@ -7,11 +7,18 @@
         <title>Document</title>
         <link rel="stylesheet" href="/css/style.css" />
         <script type="text/javascript" defer src="/js/script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&family=Roboto&family=Source+Sans+Pro:wght@400;600;700&display=swap"
+            rel="stylesheet" />
     </head>
     <body>
         <div class="container">
             <%- include('../partials/header.ejs') %>
-            <main><%- body %></main>
+            <main class="main"><%- body %></main>
             <%- include('../partials/footer.ejs') %>
         </div>
     </body>
